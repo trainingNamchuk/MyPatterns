@@ -28,12 +28,12 @@ public class Main {
 
 		headMarketing.add(clerk1);
 		headMarketing.add(clerk2);
-		System.out.println(CEO);
+		//System.out.println(CEO);
 		for (Employee headEmployee : CEO.getSubordinates()) {
 			System.out.println(headEmployee);
-			for (Employee employee : headEmployee.getSubordinates()) {
+			/*for (Employee employee : headEmployee.getSubordinates()) {
 				System.out.println(employee);
-			}
+			}*/
 		}
 	}
 }
